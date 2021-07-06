@@ -10,6 +10,7 @@ body{
 .flexiable-container{
     display: flex;
     margin-top: 100px;
+    margin-bottom:100px;
 }
 h1{
     font-size: 50px;
@@ -35,4 +36,120 @@ h1{
     color: white;
     font-weight: 600;
     border-radius: 20px;
+    
 }
+#about-pic img{
+    width: 62%;
+    height: 89%;
+    margin-top: 34px;
+}
+#about-content p{
+    width: 472px;
+    margin-bottom: 80px;
+    color: black;
+}
+.about-banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+   
+}
+#about-content{
+    margin-top: 50px;
+}
+#about-content h1{
+    color: gray;
+}
+.head-content{
+    text-align: center;
+}
+.head-content h2{
+    font-size: 35px;
+    color: gray;
+}
+.head-content p text{
+   
+     text-align:center;
+    
+}
+.image img{
+    width: 280px;
+}
+.blog h2{
+    font-weight: 800;
+}
+.blog p{
+    width: 280px;
+}
+.box{
+    width: auto;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right:5%;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+.box-1{
+    border: 4px solid black ;
+    border-radius: 15 px;
+    margin-left: 60px;
+    margin-right: 60px;
+   
+    
+}
+.counter{
+    margin-left: 10%;
+    margin-right: 9%;
+    
+}
+
+.copyrightcontainer{
+    overflow: hidden;
+    border-top: 1px solid black;
+    background: rgb(25, 24, 26);
+}
+
+.copyrigttext {
+    width: 540px;
+    color:#999;
+
+    padding: 25px 0px;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 239px;
+    
+
+}
+.copyrightMenu {
+    float: right;
+    width: 570px;
+    transition: 0.3s;
+}
+.copyrightMenu ul{
+    list-style: none;
+    float: right;
+    overflow: hidden;
+}
+.copyrightMenu ul li{
+   float:left;
+}
+.copyrightMenu ul li a{
+    color: #999;
+    display: block;
+    padding: 25px 15px;
+    text-decoration: none;
+ }
+ .copyrightMenu :hover{
+    color: tomato;
+ }
+ .copyrigttext p{
+     color: white;
+ }
+ .box .blog:hover{
+     background-color: tomato;
+     transition: 0.1s;
+ }
+ 
+
+
